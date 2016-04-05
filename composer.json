@@ -1,0 +1,15 @@
+{
+  "name": "qingchun1/php-designpatters",
+  "description": "design patterns implemented with PHP",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Qingchun Wang",
+      "email": "frostwong@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"DesignPatterns\\": "src/"}
+  }
+}
