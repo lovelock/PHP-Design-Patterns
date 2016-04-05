@@ -9,7 +9,7 @@
 namespace DesignPatterns\StrategyPattern;
 
 
-interface Strategy
+interface StrategyInterface
 {
     public function getTargetUsers();
 }

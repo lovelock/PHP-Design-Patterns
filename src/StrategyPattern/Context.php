@@ -12,7 +12,7 @@ class Context
 {
     private $_strategy;
 
-    public function setStrategy(Strategy $strategy)
+    public function setStrategy(StrategyInterface $strategy)
     {
         $this->_strategy = $strategy;
         return $this;

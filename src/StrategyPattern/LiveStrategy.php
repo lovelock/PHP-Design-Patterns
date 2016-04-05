@@ -8,7 +8,7 @@ namespace DesignPatterns\StrategyPattern;
  * Date: 16/4/5
  * Time: 下午6:25
  */
-class LiveStrategy implements Strategy
+class LiveStrategyInterface implements StrategyInterface
 {
     private $_star;
 

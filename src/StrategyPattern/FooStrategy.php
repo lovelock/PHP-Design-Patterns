@@ -9,7 +9,7 @@
 namespace DesignPatterns\StrategyPattern;
 
 
-class FooStrategy implements Strategy
+class FooStrategyInterface implements StrategyInterface
 {
     private $_items;
 
