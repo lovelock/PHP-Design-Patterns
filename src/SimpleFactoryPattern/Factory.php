@@ -8,9 +8,12 @@
 
 namespace DesignPatterns\SimpleFactoryPattern;
 
+require __DIR__ . '/../../vendor/autoload.php';
 
 class Factory
 {
+    const CONFIG_FILE = __DIR__ . '/config/config.xml';
+
     /**
      * return different instances depending on the string passed in
      * @param string|string $productName
@@ -18,10 +21,14 @@ class Factory
      */
     public static function createProduct($productName)
     {
-        if ('A' === $productName) {
-            return new ConcreteProductA();
-        } elseif ('B' === $productName) {
-            return new ConcreteProductB();
+        $config = simplexml_load_file(self::CONFIG_FILE);
+
+        foreach ($config as $k => $v) {
+            if ($v->name->__toString() === $productName) {
+                $className = 'DesignPatterns\\SimpleFactoryPattern\\' . $v->className->__toString();
+                return new $className();
+            }
+
         }
 
         return null;

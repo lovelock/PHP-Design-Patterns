@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <productList title="product">
-    <product>
+    <product id="A">
         <name>A</name>
         <className>ConcreteProductA</className>
     </product>
-    <product>
+    <product id="B">
         <name>B</name>
         <className>ConcreteProductB</className>
     </product>

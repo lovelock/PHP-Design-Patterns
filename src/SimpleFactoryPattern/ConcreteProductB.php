@@ -14,6 +14,5 @@ class ConcreteProductB extends AbstractProduct
     public function run()
     {
         echo __METHOD__;
-        exit;
     }
 }
