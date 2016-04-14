@@ -24,7 +24,6 @@ class Singleton
 
     private function __construct()
     {
-        echo __METHOD__;
     }
 
     private function __wakeup()
