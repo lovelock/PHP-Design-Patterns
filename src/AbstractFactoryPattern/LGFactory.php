@@ -12,12 +12,12 @@ namespace DesignPatterns\AbstractFactoryPattern;
 class LGFactory implements FactoryInterface
 {
 
-    public static function createSumsangFridge() : FridgeInterface
+    public static function createFridge() : FridgeInterface
     {
         return new LGFridge();
     }
 
-    public static function createSumsangTelevision() : TelevisionInterface
+    public static function createTelevision() : TelevisionInterface
     {
         return new LGTelevision();
     }

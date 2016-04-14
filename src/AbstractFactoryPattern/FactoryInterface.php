@@ -14,10 +14,10 @@ interface FactoryInterface
     /**
      * @return FridgeInterface
      */
-    public static function createSumsangFridge() : FridgeInterface;
+    public static function createFridge() : FridgeInterface;
 
     /**
      * @return TelevisionInterface
      */
-    public static function createSumsangTelevision() : TelevisionInterface;
+    public static function createTelevision() : TelevisionInterface;
 }

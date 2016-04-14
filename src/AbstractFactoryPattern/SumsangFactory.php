@@ -12,12 +12,12 @@ namespace DesignPatterns\AbstractFactoryPattern;
 class SumsangFactory implements FactoryInterface
 {
 
-    public static function createSumsangFridge() : FridgeInterface
+    public static function createFridge() : FridgeInterface
     {
         return new SumsangFridge();
     }
 
-    public static function createSumsangTelevision() : TelevisionInterface
+    public static function createTelevision() : TelevisionInterface
     {
         return new SumsangTelevision();
     }
