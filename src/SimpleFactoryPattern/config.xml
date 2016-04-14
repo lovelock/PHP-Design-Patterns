@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<productList title="product">
+    <product>
+        <name>A</name>
+        <className>ConcreteProductA</className>
+    </product>
+    <product>
+        <name>B</name>
+        <className>ConcreteProductB</className>
+    </product>
+</productList>
