@@ -14,6 +14,6 @@ class LGTelevision implements TelevisionInterface
 
     public function watch()
     {
-        echo __METHOD__;
+        return __METHOD__;
     }
 }

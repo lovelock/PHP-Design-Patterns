@@ -14,6 +14,6 @@ class LGFridge implements FridgeInterface
 
     public function freeze ()
     {
-        echo __METHOD__;
+        return __METHOD__;
     }
 }
