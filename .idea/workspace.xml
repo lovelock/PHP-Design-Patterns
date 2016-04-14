@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b49c568-8be9-4d43-93d7-f4b051b0113a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/SingletonPattern/SingletonPatternTest.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SingletonPattern/index.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SingletonPattern/Singleton.php" afterPath="$PROJECT_DIR$/src/SingletonPattern/Singleton.php" />
     </list>
     <ignored path="DesignPatterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -387,7 +382,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460629362098</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="单元测试真麻烦">
+      <created>1460630133332</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1460630133332</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -458,7 +459,8 @@
     <MESSAGE value="单例模式" />
     <MESSAGE value="适配器模式" />
     <MESSAGE value="单元测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="单元测试" />
+    <MESSAGE value="单元测试真麻烦" />
+    <option name="LAST_COMMIT_MESSAGE" value="单元测试真麻烦" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
