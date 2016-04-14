@@ -33,6 +33,5 @@ class CarProduct implements ProductInterface
     public function run()
     {
         echo __METHOD__;
-        return $this;
     }
 }
