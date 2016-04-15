@@ -13,7 +13,7 @@ abstract class AbstractColleague implements ColleagueInterface
 {
     protected $_mediator;
 
-    public function __construct(MediatorInterface $mediator)
+    public function setMediator(MediatorInterface $mediator)
     {
         $this->_mediator = $mediator;
     }

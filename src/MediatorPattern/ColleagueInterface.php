@@ -12,5 +12,8 @@ namespace DesignPatterns\MediatorPattern;
 interface ColleagueInterface
 {
     public function sendMessage(int $id, string $message);
+
     public function receiveMessage(string $message);
+
+    public function setMediator(MediatorInterface $mediator);
 }

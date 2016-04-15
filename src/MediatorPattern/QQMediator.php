@@ -14,6 +14,7 @@ class QQMediator extends AbstractMediator
     public function registered($id, ColleagueInterface $colleague)
     {
         if (! isset($this->_colleagues[$id])) {
+            $colleague->setMediator($this);
             $this->_colleagues[$id] = $colleague;
         }
     }
