@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b49c568-8be9-4d43-93d7-f4b051b0113a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/AbstractObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/AbstractSubject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/CarSubject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/ObserverInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/StateObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/SubjectInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ObserverPattern/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -69,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ObserverPattern/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.214286">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.61290324">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
                 <element signature="e#91#137#0#PHP" expanded="true" />
@@ -82,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubjectInterface.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubjectInterface.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ObserverPattern/SubjectInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53118277">
+            <state vertical-scroll-proportion="-8.821428">
               <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
@@ -95,8 +88,8 @@
       <file leaf-file-name="StateObserver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ObserverPattern/StateObserver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state vertical-scroll-proportion="-6.107143">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -105,8 +98,8 @@
       <file leaf-file-name="AbstractObserver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ObserverPattern/AbstractObserver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.428571">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state vertical-scroll-proportion="-7.464286">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -125,8 +118,8 @@
       <file leaf-file-name="AbstractSubject.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ObserverPattern/AbstractSubject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.928572">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state vertical-scroll-proportion="-13.678572">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -207,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/ObserverPattern/ObserverInterface.php" />
         <option value="$PROJECT_DIR$/src/ObserverPattern/CarSubject.php" />
         <option value="$PROJECT_DIR$/src/ObserverPattern/AbstractObserver.php" />
-        <option value="$PROJECT_DIR$/src/ObserverPattern/index.php" />
         <option value="$PROJECT_DIR$/src/ObserverPattern/AbstractSubject.php" />
+        <option value="$PROJECT_DIR$/src/ObserverPattern/index.php" />
       </list>
     </option>
   </component>
@@ -507,7 +500,19 @@
       <option name="project" value="LOCAL" />
       <updated>1460711113561</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="观察者模式">
+      <created>1460718925757</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1460718925757</updated>
+    </task>
+    <task id="LOCAL-00020" summary="观察者模式">
+      <created>1460719196542</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1460719196542</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -594,7 +599,8 @@
     <MESSAGE value="遥控器不需要知道怎样让电视机打开,但它只需要知道怎样调用电视机的打开功能就好了.选好你要的命令,发送,biu,就实现了想要的功能" />
     <MESSAGE value="中介者模式第一版" />
     <MESSAGE value="中介者模式第二版" />
-    <option name="LAST_COMMIT_MESSAGE" value="中介者模式第二版" />
+    <MESSAGE value="观察者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -964,41 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/CarSubject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/AbstractObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.214286">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <element signature="e#91#137#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/AbstractSubject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.928572">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ObserverPattern/ObserverInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.428571">
@@ -1007,19 +978,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/StateObserver.php">
+    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/SubjectInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state vertical-scroll-proportion="-8.821428">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/SubjectInterface.php">
+    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/AbstractObserver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53118277">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state vertical-scroll-proportion="-7.464286">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/StateObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/CarSubject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/AbstractSubject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.678572">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61290324">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <element signature="e#91#137#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
